@@ -2,9 +2,9 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Loading from "./Loading";
 
-const PortfolioBeach = () => {
+const PortfolioProducts = () => {
   const restPath =
-    "https://michikohasegawa.com/wendy+lucas/wp-json/wp/v2/portfolio-portfolio/156";
+    "https://michikohasegawa.com/wendy+lucas/wp-json/wp/v2/portfolio-portfolio/258";
   const [restData, setData] = useState([]);
   const [isLoaded, setLoadStatus] = useState(false);
 
@@ -33,7 +33,7 @@ const PortfolioBeach = () => {
               alt={"{projectData.title.rendered} screenshot"}
             />
           </figure>
-          <h2 className="category-title">Beach</h2>
+          <h2 className="category-title">Products</h2>
         </article>
       ) : (
         <Loading />
@@ -41,4 +41,4 @@ const PortfolioBeach = () => {
     </>
   );
 };
-export default PortfolioBeach;
+export default PortfolioProducts;

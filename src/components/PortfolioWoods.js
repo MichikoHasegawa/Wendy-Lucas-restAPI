@@ -33,7 +33,7 @@ const PortfolioWoods = () => {
               alt={"{projectData.title.rendered} screenshot"}
             />
           </figure>
-          <h2 className="woods-title">Woods</h2>
+          <h2 className="category-title">Woods</h2>
         </article>
       ) : (
         <Loading />

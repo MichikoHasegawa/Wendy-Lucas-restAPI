@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import PortfolioWoods from "./PortfolioWoods";
 import PortfolioBeach from "./PortfolioBeach";
 import PortfolioBirds from "./PortfolioBirds";
+import PortfolioProducts from "./PortfolioProducts";
 
 const Home = () => {
   const restPath =
@@ -29,7 +30,7 @@ const Home = () => {
   return (
     <>
       {isLoaded ? (
-        <div className="home-wrapper">
+        <div className="portfolio-wrapper">
           <Link to={"/birdscategory"}>
             <PortfolioBirds />
           </Link>
@@ -38,6 +39,9 @@ const Home = () => {
           </Link>
           <Link to={"/beachcategory"}>
             <PortfolioBeach />
+          </Link>
+          <Link to={"/productscategory"}>
+            <PortfolioProducts />
           </Link>
         </div>
       ) : (
