@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/wendy+lucasphotography/static/css/main.bc189b3d.css",
-    "main.js": "/wendy+lucasphotography/static/js/main.843d2984.js",
+    "main.js": "/wendy+lucasphotography/static/js/main.47b7a2d3.js",
     "static/js/787.4ee464ce.chunk.js": "/wendy+lucasphotography/static/js/787.4ee464ce.chunk.js",
     "static/media/sky.jpeg": "/wendy+lucasphotography/static/media/sky.f55e9d1a29ba2172cc54.jpeg",
     "index.html": "/wendy+lucasphotography/index.html",
     "main.bc189b3d.css.map": "/wendy+lucasphotography/static/css/main.bc189b3d.css.map",
-    "main.843d2984.js.map": "/wendy+lucasphotography/static/js/main.843d2984.js.map",
+    "main.47b7a2d3.js.map": "/wendy+lucasphotography/static/js/main.47b7a2d3.js.map",
     "787.4ee464ce.chunk.js.map": "/wendy+lucasphotography/static/js/787.4ee464ce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc189b3d.css",
-    "static/js/main.843d2984.js"
+    "static/js/main.47b7a2d3.js"
   ]
 }

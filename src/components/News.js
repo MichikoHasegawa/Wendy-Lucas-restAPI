@@ -48,7 +48,7 @@ function News({ featuredImage }) {
                   )}
                 ></figure>
               )} */}
-                  <p className="news-date">{`${post.date}`}</p>
+                  {/* <p className="news-date">{`${post.date}`}</p> */}
                   <Link className="news-title-link" to={`/news/${post.id}`}>
                     <h2 className="news-title">{post.title.rendered}</h2>
                   </Link>

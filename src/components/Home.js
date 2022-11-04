@@ -68,9 +68,9 @@ const Home = () => {
                 </Link>
               </p>
               <p>{`${restData.acf.news_description}`}</p>
-              <a href={`${restData.acf.link_1}`} target="_blank">
+              {/* <a href={`${restData.acf.link_1}`} target="_blank">
                 YouTube
-              </a>
+              </a> */}
             </section>
 
             <section className="section-contact">
